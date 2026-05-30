@@ -1,0 +1,9 @@
+Experiment,Type,N,E,K,|S|,|W|,|P|,|U_tilde|,Dijkstra Time (s),Pivots Time (s)
+2_Sensitivity,sparse,1000,2000,2,30,30,0,31,0.002863,0.001557
+2_Sensitivity,sparse,1000,2000,4,30,30,0,31,0.002863,0.001824
+2_Sensitivity,sparse,1000,2000,6,30,30,0,31,0.002863,0.002730
+2_Sensitivity,sparse,1000,2000,8,30,30,0,31,0.002863,0.002728
+2_Sensitivity,sparse,1000,2000,10,30,30,0,31,0.002863,0.001673
+2_Sensitivity,sparse,1000,2000,12,30,30,0,31,0.002863,0.002204
+2_Sensitivity,sparse,1000,2000,14,30,30,0,31,0.002863,0.002437
+2_Sensitivity,sparse,1000,2000,16,30,30,0,31,0.002863,0.001967
