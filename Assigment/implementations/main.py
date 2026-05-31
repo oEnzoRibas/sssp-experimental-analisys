@@ -7,18 +7,15 @@ import matplotlib.pyplot as plt
 import networkx as nx
 from typing import List, Tuple
 
-
 def main():
     runner = BenchmarkRunner()
     runner.run_and_export()
-
 
 def tests():
     g, s = Graph.graph_generator(e=1, n=4)
     g.add_edge(2, 0, 0)
     g.draw()
     g.print_adj_list()
-
 
 class Graph:
 
@@ -407,7 +404,6 @@ class Graph:
             s = int(f.readline())
         return graph, s
 
-
 class BenchmarkRunner:
 
     def __init__(self, output_dir: str = "results/"):
@@ -630,7 +626,6 @@ class BenchmarkRunner:
             writer.writeheader()
             writer.writerows(data)
         print(f"\nSuccess! Results exported to: {csv_path}")
-
 
 if __name__ == "__main__":
     main()
