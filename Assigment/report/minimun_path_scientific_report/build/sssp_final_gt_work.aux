@@ -1,0 +1,78 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{TP01}
+\citation{breakingTheSortingBarrier}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introdução e Motivação}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Fundamentação Teórica}{1}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Teoria de Grafos}{1}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Algoritmos de Caminho Mínimo}{1}{subsection.2.2}\protected@file@percent }
+\citation{ribas2026sssp}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Experimentos}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Experimento 1: Comparativo de Desempenho (Dijkstra vs. Bellman-Ford) em Grafos Aleatórios}{2}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Metodologia}{2}{subsubsection.3.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}Implementação do Algoritmo de Dijkstra}{2}{subsubsection.3.1.2}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Algoritmo de Dijkstra com \textit  {Binary Heap}}}{3}{algorithm.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{alg:dijkstra}{{1}{3}{Algoritmo de Dijkstra com \textit {Binary Heap}}{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.3}Implementação do Algoritmo de Bellman-Ford}{3}{subsubsection.3.1.3}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces Algoritmo de Bellman-Ford (com \textit  {Early Stopping})}}{4}{algorithm.2}\protected@file@percent }
+\newlabel{alg:bellman_ford}{{2}{4}{Algoritmo de Bellman-Ford (com \textit {Early Stopping})}{algorithm.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4}Resultados e Discussão}{4}{subsubsection.3.1.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Tempos de execução (ms) de Dijkstra e Bellman-Ford em grafos aleatórios.}}{4}{table.caption.1}\protected@file@percent }
+\newlabel{tab:exp1_results}{{1}{4}{Tempos de execução (ms) de Dijkstra e Bellman-Ford em grafos aleatórios}{table.caption.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Example figure caption. Figures should be clear and readable.}}{5}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:exp1_grafico}{{1}{5}{Example figure caption. Figures should be clear and readable}{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Experimento 2: Análise de Sensibilidade da Poda de Pivôs (Lema 3.2)}{5}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Módulo de Avaliação de Fronteira: Partial Dijkstra}{5}{subsubsection.3.2.1}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces Dijkstra Parcial (Inicialização de Fronteira)}}{6}{algorithm.3}\protected@file@percent }
+\newlabel{alg:partial_dijkstra}{{3}{6}{Dijkstra Parcial (Inicialização de Fronteira)}{algorithm.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Mecânica de Poda de Super-Fontes: Lema 3.2 (Find Pivots)}{6}{subsubsection.3.2.2}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {4}{\ignorespaces Busca e Poda de Pivôs (Lema 3.2)}}{7}{algorithm.4}\protected@file@percent }
+\newlabel{alg:find_pivots}{{4}{7}{Busca e Poda de Pivôs (Lema 3.2)}{algorithm.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}Integração Sistêmica: Dijkstra Otimizado com Pivôs}{7}{subsubsection.3.2.3}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {5}{\ignorespaces Dijkstra Otimizado via Pivôs Unificados}}{8}{algorithm.5}\protected@file@percent }
+\newlabel{alg:optimized_pivots}{{5}{8}{Dijkstra Otimizado via Pivôs Unificados}{algorithm.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.4}(Extra): Comportamento em Escala e Exaustão do Grafo ($N \in [100, 10000]$ e $k \le 128$)}{8}{subsubsection.3.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Discussão e Conclusões}{8}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Cenário Principal: $N=1000$, $m=2000$ com $k \in [2, 16]$}{8}{subsubsection.3.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Análise de Sensibilidade da Poda (Lema 3.2) em Grafos Esparsos N=1000. Tempos convertidos para milissegundos (ms).}}{8}{table.caption.3}\protected@file@percent }
+\newlabel{tab:exp2_sensitivity}{{2}{8}{Análise de Sensibilidade da Poda (Lema 3.2) em Grafos Esparsos N=1000. Tempos convertidos para milissegundos (ms)}{table.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Decrescimento Teórico: Impacto do parâmetro de profundidade $k$ no número de pivôs resultantes $|P|$.}}{9}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:exp2_k_vs_P}{{2}{9}{Decrescimento Teórico: Impacto do parâmetro de profundidade $k$ no número de pivôs resultantes $|P|$}{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Dinâmica de Poda: Comparativo entre a cardinalidade da fronteira de entrada $|S|$ e a retenção final de pivôs $|P|$.}}{10}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:exp2_S_vs_P}{{3}{10}{Dinâmica de Poda: Comparativo entre a cardinalidade da fronteira de entrada $|S|$ e a retenção final de pivôs $|P|$}{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Custo de Pré-processamento: Relação entre o limite de trabalho computacional $k \cdot |W|$ e o tempo absoluto de execução da sub-rotina.}}{11}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:exp2_tempo_vs_kw}{{4}{11}{Custo de Pré-processamento: Relação entre o limite de trabalho computacional $k \cdot |W|$ e o tempo absoluto de execução da sub-rotina}{figure.caption.6}{}}
+\citation{breakingTheSortingBarrier}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Validação Matemática do Lema 3.2: Distribuição da razão $|P| / (|W|/k)$ garantindo a restrição do limite superior.}}{12}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:exp2_histograma_lema}{{5}{12}{Validação Matemática do Lema 3.2: Distribuição da razão $|P| / (|W|/k)$ garantindo a restrição do limite superior}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}(Extra): Comportamento em Escala e Exaustão do Grafo ($N \in [100, 10000]$ e $k \le 128$)}{12}{subsubsection.3.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Análise de Sensibilidade da Poda (Lema 3.2) completa para todos os valores de N e k testados. Tempos convertidos para milissegundos (ms).}}{13}{table.caption.8}\protected@file@percent }
+\newlabel{tab:exp2_sensitivity_principal}{{3}{13}{Análise de Sensibilidade da Poda (Lema 3.2) completa para todos os valores de N e k testados. Tempos convertidos para milissegundos (ms)}{table.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Dashboard analítico de sensibilidade do Lema 3.2 para grafos esparsos de porte diminuto ($N=100$).}}{14}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:exp2_dash_100}{{6}{14}{Dashboard analítico de sensibilidade do Lema 3.2 para grafos esparsos de porte diminuto ($N=100$)}{figure.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Análise de Sensibilidade da Poda (Lema 3.2) completa para todos os valores de N e k testados. Tempos convertidos para milissegundos (ms).}}{15}{table.caption.10}\protected@file@percent }
+\newlabel{tab:exp2_sensitivity_principal}{{4}{15}{Análise de Sensibilidade da Poda (Lema 3.2) completa para todos os valores de N e k testados. Tempos convertidos para milissegundos (ms)}{table.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Dashboard analítico de sensibilidade do Lema 3.2 para instâncias moderadas ($N=500$).}}{15}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:exp2_dash_500}{{7}{15}{Dashboard analítico de sensibilidade do Lema 3.2 para instâncias moderadas ($N=500$)}{figure.caption.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Análise de Sensibilidade da Poda (Lema 3.2) completa para todos os valores de N e k testados. Tempos convertidos para milissegundos (ms).}}{16}{table.caption.12}\protected@file@percent }
+\newlabel{tab:exp2_sensitivity_principal}{{5}{16}{Análise de Sensibilidade da Poda (Lema 3.2) completa para todos os valores de N e k testados. Tempos convertidos para milissegundos (ms)}{table.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Dashboard analítico de sensibilidade do Lema 3.2 marcando o início da ineficácia assintótica em $N=1000$.}}{17}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:exp2_dash_1000}{{8}{17}{Dashboard analítico de sensibilidade do Lema 3.2 marcando o início da ineficácia assintótica em $N=1000$}{figure.caption.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Análise de Sensibilidade da Poda (Lema 3.2) completa para todos os valores de N e k testados. Tempos convertidos para milissegundos (ms).}}{18}{table.caption.14}\protected@file@percent }
+\newlabel{tab:exp2_sensitivity_principal}{{6}{18}{Análise de Sensibilidade da Poda (Lema 3.2) completa para todos os valores de N e k testados. Tempos convertidos para milissegundos (ms)}{table.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Dashboard analítico demonstrando a penalidade crítica de pré-processamento em grafos de $N=5000$.}}{18}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:exp2_dash_5000}{{9}{18}{Dashboard analítico demonstrando a penalidade crítica de pré-processamento em grafos de $N=5000$}{figure.caption.15}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Análise de Sensibilidade da Poda (Lema 3.2) completa para todos os valores de N e k testados. Tempos convertidos para milissegundos (ms).}}{19}{table.caption.16}\protected@file@percent }
+\newlabel{tab:exp2_sensitivity_principal}{{7}{19}{Análise de Sensibilidade da Poda (Lema 3.2) completa para todos os valores de N e k testados. Tempos convertidos para milissegundos (ms)}{table.caption.16}{}}
+\bibstyle{apalike}
+\bibdata{references}
+\bibcite{breakingTheSortingBarrier}{{1}{2025}{{Duan et~al.}}{{}}}
+\bibcite{ribas2026sssp}{{2}{2026}{{Ribas}}{{}}}
+\bibcite{TP01}{{3}{2026}{{Rodrigues}}{{}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Dashboard analítico final de exaustão para $N=10000$, evidenciando a inviabilidade do algoritmo perante o Dijkstra clássico.}}{20}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:exp2_dash_10000}{{10}{20}{Dashboard analítico final de exaustão para $N=10000$, evidenciando a inviabilidade do algoritmo perante o Dijkstra clássico}{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{20}{section.4}\protected@file@percent }
+\gdef \@abspage@last{20}

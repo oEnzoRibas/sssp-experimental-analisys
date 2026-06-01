@@ -1,0 +1,17 @@
+\begin{thebibliography}{}
+
+\bibitem[Duan et~al., 2025]{breakingTheSortingBarrier}
+Duan, R., Mao, J., Mao, X., Shu, X., and Yin, L. (2025).
+\newblock Breaking the sorting barrier for directed single-source shortest paths.
+
+\bibitem[Ribas, 2026]{ribas2026sssp}
+Ribas, E. R. L.~D. (2026).
+\newblock Implementação e análise empírica de algoritmos sssp.
+\newblock \url{https://github.com/oEnzoRibas/sssp-experimental-analisys }.
+\newblock Acesso em: 31 maio 2026.
+
+\bibitem[Rodrigues, 2026]{TP01}
+Rodrigues, M.~W. (2026).
+\newblock Trabalho prático 01: Implementação e análise de algoritmos clássicos de caminho mínimo, e estudo sobre o algoritmo bounded multi-source shortest path.
+
+\end{thebibliography}
